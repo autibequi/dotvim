@@ -7,6 +7,14 @@ call plug#begin('~/.vim/plugged')
 " Imports
 runtime cosmetic.vim
 
+" Configureless Plugins
+Plug 'Raimondi/delimitMate'           " Automatically close quotes, brackets etc
+Plug 'tpope/vim-surround'             " Add, remove, change surround quote, brackets, etc
+Plug 'editorconfig/editorconfig-vim'  " Load editor configurations for each project
+Plug 'ervandew/supertab'              " Tab AutoComplete
+Plug 'mhinz/vim-startify'             " Better Vim Startup Screen
+Plug 'wikitopian/hardmode'            " Hard mode is Hard :/
+
 " Great plugin moving around a file
 Plug 'easymotion/vim-easymotion'
 let g:EasyMotion_smartcase = 1        " Case Insensitive
