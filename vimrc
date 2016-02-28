@@ -4,6 +4,8 @@
 filetype off              " Required
 set nocompatible          " be iMproved
 
+" Imports
+runtime plug.vim
 " Default Settings
 syntax enable             " Enable Syntax Processing
 set expandtab             " Transform tabs in spaces
