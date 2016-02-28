@@ -5,6 +5,7 @@ filetype off              " Required
 set nocompatible          " be iMproved
 
 " Imports
+runtime shortcuts.vim
 runtime plug.vim
 
 " Default colorscheme
