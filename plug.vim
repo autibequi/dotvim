@@ -32,6 +32,10 @@ let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclu
 " Use the nearest .git directory as the cwd
 let g:ctrlp_working_path_mode = 'r'
 
+" Cool Buffer intereactive listing
+Plug 'jeetsukumaran/vim-buffergator'
+" Use the right side of the screen
+let g:buffergator_viewport_split_policy = 'R'
 
 " End Plug Setup
 call plug#end()
