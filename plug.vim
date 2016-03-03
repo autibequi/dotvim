@@ -29,6 +29,8 @@ Plug 'kien/ctrlp.vim'
 let g:ctrlp_reuse_window  = 'startify'
 " Ignore files from .gitignore
 let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
+" Use the nearest .git directory as the cwd
+let g:ctrlp_working_path_mode = 'r'
 
 
 " End Plug Setup
