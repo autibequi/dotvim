@@ -27,6 +27,9 @@ let g:signify_update_on_focus_gaines = 1
 " Fuzzy file searcher (ctrl+p)
 Plug 'kien/ctrlp.vim'
 let g:ctrlp_reuse_window  = 'startify' " Re-use startify screen with ctrp
+" Ignore files from .gitignore
+let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
+
 
 " End Plug Setup
 call plug#end()
