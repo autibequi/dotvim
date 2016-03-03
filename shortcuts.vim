@@ -2,7 +2,6 @@
 "      Shortcuts
 " ------------------
 " Leader definition
-let mapleader = ","
 nnoremap ; :
 
 " Easier split navigation
