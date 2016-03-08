@@ -13,6 +13,7 @@ Plug 'tpope/vim-surround'             " Add, remove, change surround quote, brac
 Plug 'editorconfig/editorconfig-vim'  " Load editor configurations for each project
 Plug 'mhinz/vim-startify'             " Better Vim Startup Screen
 Plug 'wikitopian/hardmode'            " Hard mode is Hard :/
+Plug 'Valloric/YouCompleteMe'         " Multilanguage Autocompletion
 
 " Just a nice Linter
 Plug 'scrooloose/syntastic'           
