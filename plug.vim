@@ -42,4 +42,8 @@ Plug 'jeetsukumaran/vim-buffergator'
 let g:buffergator_viewport_split_policy = 'R'
 
 " End Plug Setup
+" Identation Guidelines
+Plug 'Yggdroot/indentLine'
+let g:indentLine_char = '┆'
+
 call plug#end()
