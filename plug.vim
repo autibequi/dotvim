@@ -14,6 +14,10 @@ Plug 'editorconfig/editorconfig-vim'  " Load editor configurations for each proj
 Plug 'mhinz/vim-startify'             " Better Vim Startup Screen
 Plug 'wikitopian/hardmode'            " Hard mode is Hard :/
 
+" Just a nice Linter
+Plug 'scrooloose/syntastic'           
+let g:syntastic_check_on_wq = 1
+
 " Great plugin moving around a file
 Plug 'easymotion/vim-easymotion'
 let g:EasyMotion_smartcase = 1        " Case Insensitive
