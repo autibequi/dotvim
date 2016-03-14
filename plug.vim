@@ -14,6 +14,7 @@ Plug 'editorconfig/editorconfig-vim'  " Load editor configurations for each proj
 Plug 'mhinz/vim-startify'             " Better Vim Startup Screen
 Plug 'wikitopian/hardmode'            " Hard mode is Hard :/
 Plug 'Valloric/YouCompleteMe'         " Multilanguage Autocompletion
+Plug 'jmcantrell/vim-virtualenv'      " Virtual-env
 
 " Just a nice Linter
 Plug 'scrooloose/syntastic'           
