@@ -17,13 +17,6 @@ inoremap jk <esc>
 " Netrw shortcuts
 noremap <Leader>e :Explore<CR>
 
-" Makes your life a hell
-map <up> <nop>
-map <down> <nop>
-map <left> <nop>
-map <right> <nop>
-map <ESC> :echo "Nop! Try JK!"<CR>
-
 " Open a new empty buffer
 nmap <leader>t :enew<cr>
 
