@@ -33,5 +33,8 @@ nmap <leader>l :bnext<CR>
 " Move to the previous buffer
 nmap <leader>h :bprevious<CR>
 
+" Delete a buffer
+nmap <leader><leader>d :bd<CR>
+
 " Reopen last deleted buffer
 nmap <leader>z :tabnew #<CR>
