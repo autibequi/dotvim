@@ -9,7 +9,7 @@ runtime shortcuts.vim
 runtime plug.vim
 
 " Default colorscheme
-colorscheme hybrid
+colorscheme srcery
 
 " Default Settings
 syntax enable             " Enable Syntax Processing

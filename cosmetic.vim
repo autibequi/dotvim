@@ -1,5 +1,5 @@
 " Color Scheme
-Plug 'scwood/vim-hybrid'
+Plug 'roosta/srcery'
 
 " Powerline Bar
 Plug 'vim-airline/vim-airline'
