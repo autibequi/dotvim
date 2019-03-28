@@ -6,7 +6,10 @@ call plug#begin('~/.vim/plugged')
 
 " Imports
 runtime cosmetic.vim
-
+Plug 'Shougo/vimfiler.vim'
+Plug 'Shougo/unite.vim'
+" Add icons and stuff
+Plug 'ryanoasis/vim-devicons'
 " Configureless Plugins
 Plug 'Raimondi/delimitMate'           " Automatically close quotes, brackets etc
 Plug 'tpope/vim-surround'             " Add, remove, change surround quote, brackets, etc
