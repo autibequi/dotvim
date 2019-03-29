@@ -9,3 +9,7 @@ sudo apt-get install python-dev -y
 
 # Install Linter for Syntastic
 sudo npm install -g jshint
+
+# create simlink to nvim config
+ln -s vimrc init.vim
+ln -s ~/.vim ~/.config/nvim
